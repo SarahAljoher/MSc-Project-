@@ -48,8 +48,17 @@ This project uses the following datasets:
 - Training, validation, and testing were carried out across four trials to compare the performance of real vs. synthetic data.
 - The U-Net architecture is based on the 2D implementation proposed by Ronneberger et al.
 - All training experiments are provided as Google Colab notebooks in this repository.
+- 
+## Experimental Trials
 
-## 🚀 Google Colab Notebooks
+| Trial | Description |
+|-------|-------------|
+| **Trial 1** | Trained on raw synthetic images with unrefined segmentation masks. |
+| **Trial 2** | Used enhanced synthetic images and refined masks via morphological closing. |
+| **Trial 3** | Filtered unrealistic samples from Trial 2 to improve data quality. |
+| **Trial 4** | Baseline model trained only on real tumor images and masks. |
+
+## Google Colab Notebooks
 Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
 Click below to open them in Google Colab:
 
