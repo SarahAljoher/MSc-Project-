@@ -10,7 +10,7 @@ This project is divided into two main components:
 2. U-Net Segmentation Training (4 Experimental Trials)
 
 ## Code Files
-**1. MSc project tools file.zip** has the Synthetic Tumor Generation Pipeline code files
+**MSc project tools file.zip** has the Synthetic Tumor Generation Pipeline code files
 
 - **synthetic_poisson_enhanced.py**
 Main script for generating synthetic tumor patches using Poisson blending and 2D Tukey windowing. Masks are generated via SAM and post-processed.
@@ -26,8 +26,6 @@ Contains the Python environment dependencies (Anaconda environment).
 
 - **Two utility functions** —  `getUID`, and `get_gt`  — were used in this project. These scripts were sourced from the official Python code provided with the publicly available [Lung-PET-CT-Dx](https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/) dataset by The Cancer Imaging Archive (TCIA).
 
-**2.u-net experimental trials ( Google Colab notebooks)**
-Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
 
 ##  Data Sources
 
@@ -49,3 +47,16 @@ This project uses the following datasets:
 - Training, validation, and testing were carried out across four trials to compare the performance of real vs. synthetic data.
 - The U-Net architecture is based on the 2D implementation proposed by Ronneberger et al.
 - All training experiments are provided as Google Colab notebooks in this repository.
+
+## 🚀 Google Colab Notebooks
+Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
+Click the badges below to open the training notebooks in Google Colab:
+
+[![Open Trial 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Trial1_UNet.ipynb)
+
+[![Open Trial 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Trial2_UNet.ipynb)
+
+[![Open Trial 3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Trial3_UNet.ipynb)
+
+[![Open Trial 4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/Trial4_UNet.ipynb)
+
