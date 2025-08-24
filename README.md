@@ -10,7 +10,7 @@ This project is divided into two main components:
 2. U-Net Segmentation Training (4 Experimental Trials)
 
 ## Code Files
-**1. MSc project tools file** has the Synthetic Tumor Generation Pipeline code files
+**1. MSc project tools file.zip** has the Synthetic Tumor Generation Pipeline code files
 
 - **synthetic_poisson_enhanced.py**
 Main script for generating synthetic tumor patches using Poisson blending and 2D Tukey windowing. Masks are generated via SAM and post-processed.
