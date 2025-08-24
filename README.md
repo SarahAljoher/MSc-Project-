@@ -10,23 +10,22 @@ This project is divided into two main components:
 2. U-Net Segmentation Training (4 Experimental Trials)
 
 ## Code Files
+**1. MSc project tools file** has the Synthetic Tumor Generation Pipeline code files
 
-**1. synthetic_poisson_enhanced.py**
-
+- **synthetic_poisson_enhanced.py**
 Main script for generating synthetic tumor patches using Poisson blending and 2D Tukey windowing. Masks are generated via SAM and post-processed.
 
-**2. extract_real_tumor_slices_and_masks.py**
-
+- **extract_real_tumor_slices_and_masks.py**
 Extracts real tumor slices and creates binary masks from the Lung-PET-CT-Dx dataset using SAM.
 
-**3. run_viewer.py**
+- **run_viewer.py**
 Tool for visualizing bounding boxes from XML annotations on top of DICOM images.
 
-**4. requirements.txt**
+- **requirements.txt**
 Contains the Python environment dependencies (Anaconda environment).
 
-**5. 4x Trial#.ipynb( Google Colab notebooks)**
-Four notebooks for U-Net training, validation, and testing under different experimental conditions.
+**2.u-net experimental trials ( Google Colab notebooks)**
+Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
 
 ##  Data Sources
 
