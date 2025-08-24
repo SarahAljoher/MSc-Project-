@@ -24,7 +24,7 @@ Tool for visualizing bounding boxes from XML annotations on top of DICOM images.
 - **requirements.txt**
 Contains the Python environment dependencies (Anaconda environment).
 
-- **Three utility functions** — `glob`, `getUID`, and `get_gt` (imported as `get_gt`) — were used in this project. These scripts were sourced from the official Python code provided with the publicly available [Lung-PET-CT-Dx](https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/) dataset by The Cancer Imaging Archive (TCIA).
+- **Two utility functions** —  `getUID`, and `get_gt`  — were used in this project. These scripts were sourced from the official Python code provided with the publicly available [Lung-PET-CT-Dx](https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/) dataset by The Cancer Imaging Archive (TCIA).
 
 **2.u-net experimental trials ( Google Colab notebooks)**
 Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
