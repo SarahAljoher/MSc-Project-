@@ -50,13 +50,10 @@ This project uses the following datasets:
 
 ## 🚀 Google Colab Notebooks
 Four notebooks ( Trial#.ipynb) for U-Net training, validation, and testing under different experimental conditions.
-Click the badges below to open the training notebooks in Google Colab:
+Click below to open them in Google Colab:
 
-[![Open Trial 1 in Colab](https://drive.google.com/file/d/199nOQGTIj9nILdAsfkH4EUY_6imxyCEt/view?usp=sharing)
-
-[![Open Trial 2 in Colab](https://drive.google.com/file/d/1mFzYeoCPGkR8Q7XqmSUeuq6nDSZofWfs/view?usp=sharing)
-
-[![Open Trial 3 in Colab](https://drive.google.com/file/d/1OqW-jlm4M44LsGYgKwq7uu1zdjenEi_k/view?usp=sharing)
-
-[![Open Trial 4 in Colab](https://drive.google.com/file/d/16LHqykL0fGPLlZu1At0g4MCHo-XwOUy3/view?usp=sharing)
+- [Trial 1 Notebook](https://drive.google.com/file/d/199nOQGTIj9nILdAsfkH4EUY_6imxyCEt/view?usp=sharing)
+- [Trial 2 Notebook](https://drive.google.com/file/d/1mFzYeoCPGkR8Q7XqmSUeuq6nDSZofWfs/view?usp=sharing)
+- [Trial 3 Notebook](https://drive.google.com/file/d/1OqW-jlm4M44LsGYgKwq7uu1zdjenEi_k/view?usp=sharing)
+- [Trial 4 Notebook](https://drive.google.com/file/d/16LHqykL0fGPLlZu1At0g4MCHo-XwOUy3/view?usp=sharing)
 
