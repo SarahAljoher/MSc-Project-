@@ -1,4 +1,4 @@
-# MSc-Project-
+# MSc-Project-2025
 ### Synthetic Lung Tumor Generation and U-Net Segmentation
 This repository contains an automated pipeline for generating synthetic lung tumor CT images and corresponding segmentation masks, developed to support deep learning model training in limited-data settings. The project also includes Google Colab notebooks for 2D U-Net segmentation experiments using real and synthetic data.
 
